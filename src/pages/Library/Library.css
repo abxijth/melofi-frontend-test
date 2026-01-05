@@ -58,9 +58,9 @@
 
 
 .library-content {
-	width: 80vw;
 	position: relative;
 	top: 80px;
+	
 
 }
 
@@ -70,8 +70,8 @@
 	display: grid;
 	grid-template-rows: 100px 100px 100px;
 	grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center;
+	justify-items: center;
+  align-items: center; 
   gap: 100px;
 
 }
