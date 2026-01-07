@@ -27,16 +27,18 @@
 }
 
 
+
+
 .search-content{
 	position: relative;
-	top: 85px;
+	top: 40px;
 	padding: 25px;
 
 	display: grid;
-	grid-template-rows: 100px 100px 100px;
-	grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-auto-rows: auto;
-  gap: 0px;
+	grid-template-columns: repeat(3, 1fr); 
+	grid-auto-rows: 100px; 
+	 
+
+	justify-items: center;
+	align-items: center;
 }
