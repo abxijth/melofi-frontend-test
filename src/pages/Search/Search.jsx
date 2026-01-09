@@ -22,7 +22,7 @@ const Search = () => {
 			<div className="search-bar">
 				<input
 					type="text"
-					placeholder="Search.."
+					placeholder="&#x1F50D;   What do you want to listen to??"
 					value={query}
 					onChange={(e) => setQuery(e.target.value)}
 				/>
